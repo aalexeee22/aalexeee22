@@ -20,7 +20,11 @@
 ### 🛠️ Tech I use
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,flask,react,ts,js,html,css,git&theme=light" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,angular,python,flask&theme=light" alt="Frontend and backend"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=java,c,cpp,r,haskell&theme=light" alt="Backend and logic"/>
+  <img height="48" src="assets/lean.svg" alt="Lean"/>
+  <img src="https://skillicons.dev/icons?i=docker,git&theme=light" alt="Docker and Git"/>
 </p>
 
 ### 📊 Stats
