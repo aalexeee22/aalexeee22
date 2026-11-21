@@ -10,7 +10,7 @@
 
 - 🐭 Small, fast and hard to catch (especially by bugs)
 <!-- PROJECT:START -->
-- 🔭 Currently working on: **[fancy_secret_santa](https://github.com/aalexeee22/fancy_secret_santa)** 
+- 🔭 Currently working on: **[fancy_secret_santa](https://github.com/aalexeee22/fancy_secret_santa)** (TypeScript)
 <!-- PROJECT:END -->
 
 <p align="center">
