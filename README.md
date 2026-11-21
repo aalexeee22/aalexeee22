@@ -31,7 +31,7 @@
 
 <p align="center">
 <!-- STATS:START -->
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aalexeee22&show_icons=true&hide_border=true&bg_color=fff4d6&title_color=b5651d&icon_color=e8a317&text_color=5a3a1a&custom_title=Alexandra%27s%20GitHub%20Stats&hide=prs,issues,contribs" alt="GitHub stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aalexeee22&show_icons=true&hide_border=true&bg_color=fff4d6&title_color=b5651d&icon_color=e8a317&text_color=5a3a1a&custom_title=Alexandra%27s%20GitHub%20Stats&hide_rank=true&hide=prs,issues,contribs" alt="GitHub stats"/>
 <!-- STATS:END -->
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aalexeee22&layout=compact&hide_border=true&bg_color=fff4d6&title_color=b5651d&text_color=5a3a1a" alt="Most used languages"/>
 </p>

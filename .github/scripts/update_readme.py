@@ -15,7 +15,7 @@ README = "README.md"
 STATS_URL = (
     f"https://github-readme-stats.vercel.app/api?username={USER}&show_icons=true&hide_border=true"
     "&bg_color=fff4d6&title_color=b5651d&icon_color=e8a317&text_color=5a3a1a"
-    "&custom_title=Alexandra%27s%20GitHub%20Stats"
+    "&custom_title=Alexandra%27s%20GitHub%20Stats&hide_rank=true"
 )
 
 STATS_QUERY = """
