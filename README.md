@@ -30,13 +30,8 @@
 ### 📊 Stats
 
 <p align="center">
-<!-- STATS:START -->
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=aalexeee22&show_icons=true&hide_border=true&bg_color=fff4d6&title_color=b5651d&icon_color=e8a317&text_color=5a3a1a&custom_title=Alexandra%27s%20GitHub%20Stats&hide_rank=true&hide=prs,issues,contribs" alt="GitHub stats"/>
-<!-- STATS:END -->
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aalexeee22&layout=compact&hide_border=true&bg_color=fff4d6&title_color=b5651d&text_color=5a3a1a" alt="Most used languages"/>
-</p>
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=aalexeee22&hide_border=true&background=fff4d6&ring=e8a317&fire=b5651d&currStreakLabel=b5651d&sideLabels=7a3e12&currStreakNum=5a3a1a&sideNums=5a3a1a&dates=a8652e&stroke=f0cf96" alt="Streak"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=aalexeee22&hide_border=true&background=fff4d6&ring=e8a317&fire=b5651d&currStreakLabel=b5651d&sideLabels=7a3e12&currStreakNum=5a3a1a&sideNums=5a3a1a&dates=a8652e&stroke=f0cf96" alt="Streak"/>
 </p>
 
 <p align="center">
