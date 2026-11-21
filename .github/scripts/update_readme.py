@@ -69,8 +69,6 @@ def latest_project():
     line = f"- 🔭 Currently working on: **[{repo['name']}]({repo['html_url']})**"
     if repo["description"]:
         line += f" — {repo['description']}"
-    if repo["language"]:
-        line += f" ({repo['language']})"
     print("latest project:", repo["name"])
     return line
 
