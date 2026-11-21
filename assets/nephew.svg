@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140">
+  <style>
+    text { font-family: "Comic Sans MS", "Chalkboard SE", "Trebuchet MS", sans-serif; font-weight: 700; }
+    .walk { animation: walk 10s linear infinite; }
+    @keyframes walk { from { transform: translateX(-150px); } to { transform: translateX(1050px); } }
+    .leg { transform-box: fill-box; transform-origin: 50% 0; animation: leg .42s ease-in-out infinite alternate; }
+    .leg.b { animation-direction: alternate-reverse; }
+    .leg.fast { animation-duration: .21s; }
+    @keyframes leg { from { transform: rotate(28deg); } to { transform: rotate(-28deg); } }
+    .bob { animation: bob .42s ease-in-out infinite alternate; }
+    @keyframes bob { from { transform: translateY(0); } to { transform: translateY(-3px); } }
+    .hop { animation: hop .42s ease-out infinite alternate; }
+    @keyframes hop { from { transform: translateY(0); } to { transform: translateY(-16px); } }
+    .say1 { animation: say1 10s linear infinite; }
+    .say2 { animation: say2 10s linear infinite; }
+    @keyframes say1 { 0%, 25% { opacity: 0; } 28%, 50% { opacity: 1; } 53%, 100% { opacity: 0; } }
+    @keyframes say2 { 0%, 55% { opacity: 0; } 58%, 80% { opacity: 1; } 83%, 100% { opacity: 0; } }
+  </style>
+  <defs>
+    <g id="mb">
+      <path d="M-20-16C-38-24-44-2-62-14" fill="none" stroke="#8a5a2b" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="-4" cy="-21" rx="18" ry="13" fill="#b5773d"/>
+      <ellipse cx="1" cy="-18" rx="10" ry="7" fill="#f3d6a8"/>
+      <circle cx="4" cy="-47" r="10.5" fill="#b5773d"/><circle cx="4" cy="-47" r="6.5" fill="#f2a5a0"/>
+      <circle cx="14" cy="-35" r="12.5" fill="#b5773d"/>
+      <ellipse cx="25" cy="-31" rx="8.5" ry="6" fill="#f3d6a8"/>
+      <circle cx="33" cy="-32" r="2.8" fill="#4a2a14"/>
+      <ellipse cx="19" cy="-39" rx="3.2" ry="4.2" fill="#fff"/><circle cx="20.5" cy="-39" r="2" fill="#222"/>
+      <path d="M22-26q4 3 8 0" fill="none" stroke="#4a2a14" stroke-width="1.4" stroke-linecap="round"/>
+    </g>
+  </defs>
+
+  <path d="M0 126H900" stroke="#c98b4f" stroke-width="2" stroke-dasharray="6 8" opacity=".4"/>
+
+  <g transform="translate(0 125)">
+    <g class="walk">
+      <!-- big mouse -->
+      <g class="bob">
+        <g class="leg b"><rect x="-13" y="-13" width="7" height="13" rx="3.5" fill="#8a5a2b"/></g>
+        <g class="leg"><rect x="3" y="-13" width="7" height="13" rx="3.5" fill="#8a5a2b"/></g>
+        <use href="#mb"/>
+      </g>
+
+      <!-- little mouse hopping behind, with a tiny cheese -->
+      <g transform="translate(-80 0) scale(.6)">
+        <g class="hop">
+          <g class="leg fast b"><rect x="-13" y="-13" width="7" height="13" rx="3.5" fill="#8a5a2b"/></g>
+          <g class="leg fast"><rect x="3" y="-13" width="7" height="13" rx="3.5" fill="#8a5a2b"/></g>
+          <use href="#mb"/>
+          <path d="M10-8h22v-14z" fill="#ffc93c" stroke="#e09f1f" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="26" cy="-12" r="2.4" fill="#e5a92a"/>
+          <ellipse cx="13" cy="-12" rx="4" ry="3.2" fill="#b5773d"/>
+        </g>
+      </g>
+
+      <g class="say1">
+        <rect x="-150" y="-92" width="118" height="30" rx="12" fill="#fff" stroke="#b5651d" stroke-width="2"/>
+        <path d="M-96-63l6 12 6-12" fill="#fff" stroke="#b5651d" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M-95-63.5h10" stroke="#fff" stroke-width="3"/>
+        <text x="-91" y="-72" text-anchor="middle" font-size="14" fill="#7a3e12">Wait for me!</text>
+      </g>
+      <g class="say2">
+        <rect x="-30" y="-112" width="110" height="30" rx="12" fill="#fff" stroke="#b5651d" stroke-width="2"/>
+        <path d="M8-83l4 14 8-14" fill="#fff" stroke="#b5651d" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M9-83.5h10" stroke="#fff" stroke-width="3"/>
+        <text x="25" y="-92" text-anchor="middle" font-size="14" fill="#7a3e12">Hai, piciule!</text>
+      </g>
+    </g>
+  </g>
+</svg>

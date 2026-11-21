@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="900" height="190">
+  <style>
+    text { font-family: "Comic Sans MS", "Chalkboard SE", "Trebuchet MS", sans-serif; font-weight: 700; }
+    .peek { animation: peek 10s ease-in-out infinite; }
+    @keyframes peek {
+      0%, 8% { transform: translateY(50px); }
+      14%, 60% { transform: translateY(0); }
+      63%, 86% { transform: translateY(50px); }
+      90%, 97% { transform: translateY(0); }
+      100% { transform: translateY(50px); }
+    }
+    .look { animation: look 10s ease-in-out infinite; }
+    @keyframes look {
+      0%, 18% { transform: translateX(0); }
+      22%, 32% { transform: translateX(-2.5px); }
+      36%, 46% { transform: translateX(2.5px); }
+      50%, 100% { transform: translateX(0); }
+    }
+    .lid { transform-box: fill-box; transform-origin: 50% 0; animation: blink 10s linear infinite; }
+    @keyframes blink {
+      0%, 47.5% { transform: scaleY(0); } 48.5% { transform: scaleY(1); } 49.5%, 93% { transform: scaleY(0); }
+      94% { transform: scaleY(1); } 95%, 100% { transform: scaleY(0); }
+    }
+    .paw { animation: paw 10s ease-in-out infinite; }
+    @keyframes paw {
+      0%, 56% { transform: translate(940px, 170px); }
+      64% { transform: translate(500px, 170px); }
+      68% { transform: translate(520px, 170px); }
+      72% { transform: translate(492px, 170px); }
+      76% { transform: translate(515px, 170px); }
+      84%, 100% { transform: translate(940px, 170px); }
+    }
+    .alert { transform-box: fill-box; transform-origin: 50% 100%; animation: alert 10s linear infinite; }
+    @keyframes alert {
+      0%, 56% { opacity: 0; transform: scale(.3); }
+      57.5%, 62% { opacity: 1; transform: scale(1); }
+      64%, 100% { opacity: 0; transform: scale(1); }
+    }
+  </style>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff5df"/><stop offset="1" stop-color="#f7dfb3"/>
+    </linearGradient>
+    <pattern id="paper" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="18" cy="18" r="2.2" fill="#f0cf96"/>
+    </pattern>
+    <clipPath id="frame"><rect width="900" height="190" rx="24"/></clipPath>
+    <clipPath id="hole"><path d="M420 160V132a30 30 0 0 1 60 0v28z"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="190" fill="url(#wall)"/>
+    <rect width="900" height="144" fill="url(#paper)"/>
+    <rect y="144" width="900" height="16" fill="#c98b4f"/>
+    <rect y="144" width="900" height="3" fill="#dba26a"/>
+    <rect y="160" width="900" height="30" fill="#a86b3c"/>
+    <path d="M0 176H900M150 160v16M560 160v16M300 176v14M720 176v14" stroke="#8f5a31" stroke-width="2"/>
+
+    <text x="450" y="44" text-anchor="middle" font-size="26" fill="#7a3e12">Thanks for stopping by!</text>
+    <text x="450" y="74" text-anchor="middle" font-size="15" fill="#a8652e">...and don't tell the cat where I'm hiding</text>
+
+    <path d="M420 160V132a30 30 0 0 1 60 0v28z" fill="#3b2314"/>
+    <g clip-path="url(#hole)">
+      <g class="peek">
+        <circle cx="436" cy="122" r="9" fill="#b5773d"/><circle cx="436" cy="122" r="5" fill="#f2a5a0"/>
+        <circle cx="464" cy="122" r="9" fill="#b5773d"/><circle cx="464" cy="122" r="5" fill="#f2a5a0"/>
+        <circle cx="450" cy="140" r="15" fill="#b5773d"/>
+        <ellipse cx="450" cy="147" rx="8" ry="6" fill="#f3d6a8"/>
+        <circle cx="450" cy="143.5" r="2.6" fill="#4a2a14"/>
+        <ellipse cx="444" cy="135" rx="3.2" ry="4.2" fill="#fff"/>
+        <ellipse cx="456" cy="135" rx="3.2" ry="4.2" fill="#fff"/>
+        <g class="look">
+          <circle cx="444" cy="135.5" r="2" fill="#222"/>
+          <circle cx="456" cy="135.5" r="2" fill="#222"/>
+        </g>
+        <ellipse class="lid" cx="444" cy="133" rx="3.6" ry="4.6" fill="#b5773d"/>
+        <ellipse class="lid" cx="456" cy="133" rx="3.6" ry="4.6" fill="#b5773d"/>
+        <path d="M445 151q5 4 10 0" fill="none" stroke="#4a2a14" stroke-width="1.5" stroke-linecap="round"/>
+      </g>
+    </g>
+    <path d="M420 160V132a30 30 0 0 1 60 0v28" fill="none" stroke="#8a5a2b" stroke-width="4"/>
+
+    <text class="alert" x="492" y="108" font-size="28" fill="#d9480f">!</text>
+
+    <!-- sneaky cat paw -->
+    <g class="paw">
+      <rect x="0" y="-11" width="420" height="22" rx="11" fill="#7d8ca3"/>
+      <ellipse cx="0" cy="0" rx="17" ry="13" fill="#7d8ca3"/>
+      <circle cx="-11" cy="-8" r="5" fill="#8e9db4"/>
+      <circle cx="-14" cy="0" r="5" fill="#8e9db4"/>
+      <circle cx="-11" cy="8" r="5" fill="#8e9db4"/>
+      <path d="M-15-10l-6-1 5 4zM-18-2h-6l5 3zM-15 6l-6 1 5 3z" fill="#fff"/>
+    </g>
+  </g>
+</svg>
