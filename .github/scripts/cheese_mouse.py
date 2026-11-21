@@ -1,4 +1,4 @@
-"""Draws the contribution calendar as cheese, with a mouse head that eats it.
+"""Draws the contribution calendar in cheese colors, with a mouse head that eats it.
 
 Usage: python cheese_mouse.py dist/cheese-mouse.svg
 """
@@ -14,10 +14,10 @@ SPEED = 140  # px per second
 TRAVEL = 88  # % of the loop spent eating; the rest refills the cheese
 
 CHEESE = {
-    "FIRST_QUARTILE": ("#ffe08a", .6),
-    "SECOND_QUARTILE": ("#ffcc4d", .75),
-    "THIRD_QUARTILE": ("#f5b014", .9),
-    "FOURTH_QUARTILE": ("#d48806", 1.05),
+    "FIRST_QUARTILE": "#ffe08a",
+    "SECOND_QUARTILE": "#ffcc4d",
+    "THIRD_QUARTILE": "#f5b014",
+    "FOURTH_QUARTILE": "#d48806",
 }
 
 QUERY = """
@@ -103,11 +103,9 @@ def render(weeks):
         for x, y in cells
     ]
     for i, (_, x, y, level) in enumerate(cheeses):
-        color, size = CHEESE[level]
         out.append(
-            f'<g transform="translate({x} {y}) scale({size})"><g class="k" style="animation-name:e{i}">'
-            f'<path d="M-6 4.5H6V-5z" fill="{color}" stroke="#c98a12" stroke-width="1" stroke-linejoin="round"/>'
-            f'<circle cx="2.8" cy="1.6" r="1.3" fill="#c98a12" opacity=".55"/></g></g>'
+            f'<g transform="translate({x} {y})"><g class="k" style="animation-name:e{i}">'
+            f'<rect x="-5.5" y="-5.5" width="11" height="11" rx="2.5" fill="{CHEESE[level]}"/></g></g>'
         )
     out.append('<g class="m"><use href="#mouse"/></g>')
     out.append("</svg>")

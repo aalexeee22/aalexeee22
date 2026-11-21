@@ -10,7 +10,7 @@
 
 - 🐭 Small, fast and hard to catch (especially by bugs)
 <!-- PROJECT:START -->
-- 🔭 Currently working on: **[fancy_secret_santa](https://github.com/aalexeee22/fancy_secret_santa)** (TypeScript)
+- 🔭 Currently working on: **[fancy_secret_santa](https://github.com/aalexeee22/fancy_secret_santa)** 
 <!-- PROJECT:END -->
 
 <p align="center">
@@ -42,7 +42,7 @@
 ### 🧀 My contributions (nibbled)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/aalexeee22/aalexeee22/output/cheese-mouse.svg" width="100%" alt="A mouse eating my contributions, which are cheese"/>
+  <img src="https://raw.githubusercontent.com/aalexeee22/aalexeee22/output/cheese-mouse.svg?v=2" width="100%" alt="A mouse eating my contributions, which are cheese"/>
 </p>
 
 <p align="center">
