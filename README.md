@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=B5651D&center=true&vCenter=true&width=600&lines=Hi!+I'm+Alexandra+%F0%9F%90%AD;Running+from+bugs+like+Jerry+from+Tom;Writing+code+fueled+by+cheese+%F0%9F%A7%80;Flask+%2B+React+%2B+TypeScript" alt="Typing text"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=B5651D&center=true&vCenter=true&width=600&lines=Hi!+I'm+Alexandra+%F0%9F%90%AD;Running+from+bugs+like+Jerry+from+Tom;Writing+code+fueled+by+cheese+%F0%9F%A7%80" alt="Typing text"/>
 </p>
 
 ### 🧀 About me
