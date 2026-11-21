@@ -42,10 +42,7 @@
 ### 🧀 My contributions (nibbled)
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aalexeee22/aalexeee22/output/cheese-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/aalexeee22/aalexeee22/output/cheese-snake.svg" alt="Contributions eaten like cheese"/>
-  </picture>
+  <img src="https://raw.githubusercontent.com/aalexeee22/aalexeee22/output/cheese-mouse.svg" width="100%" alt="A mouse eating my contributions, which are cheese"/>
 </p>
 
 <p align="center">
